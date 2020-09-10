@@ -1,0 +1,181 @@
+/***** BASE STYLES *****/
+
+body {
+    font-family:'lora', sans-serif;
+    color: #262626;
+}
+
+/***** GRID *****/
+
+.full-width {
+    width: 1200px;
+    overflow: auto;
+    margin: auto;
+}
+
+.half-width {
+    width: 600px;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/***** HEADER *****/
+
+header {
+    height: 800px;
+    background: #ffffff;
+}
+
+header h2 {
+    font-family: 'montserrat', sans-serif;
+    font-size: 64px;
+    font-weight: 400;
+    color: #262626;
+    text-transform: uppercase;
+    margin: 295px 100px 45px;
+}
+
+header h2 span {
+    color: #7c6a0a;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+header h3 {
+    font-family: 'montserrat', sans-serif;
+    font-size: 38px;
+    color: #262626;
+    font-weight: 400;
+    font-variant: small-caps;
+    margin: 45px 200px 200px;
+}
+
+nav {
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 25px;
+}
+
+nav ul li a {
+    font-family: 'montserrat', sans-serif;
+    font-size: 24px;
+    color: #262626;
+    text-decoration: none;
+}
+
+/***** MAIN *****/
+
+#about {
+    background: #7c6a0a;
+    height: 1050px;
+}
+#about img {
+    height: 300px;
+    width: 250px;
+    border: 5px solid #ffffff;
+    margin: 52px 450px;
+}
+#about h3 {
+    font-family: 'lora', serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 75px 410px 0px;
+
+}
+#about p {
+    font-family: 'montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    color: #262626;
+    font-variant: small-caps;
+    margin: 0px 100px;
+    padding: 12px;
+}
+
+/***** PORTFOLIO *****/
+
+#portfolio {
+    height: 875px;
+}
+#portfolio h3 {
+    font-family: 'lora', serif;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    margin: 85px 250px 60px;
+}
+#portfolio h4 {
+    font-family: 'lora', serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}
+#portfolio p {
+    font-family: 'montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #7c6a0a;
+    text-align: center;
+    margin-bottom: 175px;
+    text-transform: uppercase;
+    
+}
+#portfolio img {
+    width: 350px;
+    height: 220px;
+    margin: 55px 25px;
+}
+
+#connect {
+    height: 650px;
+    background: #7c6a0a;
+}
+#connect h3 {
+    font-family: 'lora', serif;
+    font-size: 36px;
+    color: #ffffff;
+    margin: 170px 490px 47px;
+}
+#connect h4 {
+    font-family: 'lora', serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}
+#connect p {
+    font-family: 'montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: #262626;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+#connect a {
+    text-decoration: none;
+    color: #262626;
+}
+#connect ul {
+    margin: 20px 50px;
+}
+#connect ul li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+#footer h4 {
+    font-family: 'montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin: 210px 0px 0px 0px;
+}
